@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+    scripts(src="../static/index.js")
+block style 
+    style
+      include ../static/style.css
+block content 
+     section#introsection 
+        div Welcome to Mahak Dance Academy
+        div#small Life is worth living while dancing.
+     section#missionsection 
+        h2 Our Mission
+        #cards
+          .card 
+            h3 Dance Perfection
+            .card-box  
+              div.card-img
+                img(src="../static/3.jpg")
+            .card-content 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quae architecto sed quo accusantium blanditiis commodi 
+          .card 
+            h3 Dance the way you like
+            .card-box  
+              div.card-img
+                img(src="../static/2.jpg")
+            .card-content 
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam iure itaque quasi aliquid similique quos?
+          .card 
+            h3 Expert Teaching
+            .card-box  
+              div.card-img
+                img(src="../static/4.jpg")
+            .card-content 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam temporibus nihil qui possimus sint officia.
+     section#sponsersection 
+        h2 Our Sponsors
+        div#logos
+          img(src="../static/logo1.jpg", alt="Sponsors", class="logo")
+          img(src="../static/logo2.jpg", alt="Sponsors", class="logo")
+          img(src="../static/logo3.jpg", alt="Sponsors", class="logo")
+          img(src="../static/logo4.jpg", alt="Sponsors", class="logo")
+   

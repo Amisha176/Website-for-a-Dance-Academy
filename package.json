@@ -1,0 +1,17 @@
+{
+  "name": "mahak-dance-classes",
+  "version": "1.0.0",
+  "description": "This is one of the best dance classes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amisha Lunia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "pug": "^3.0.2"
+  }
+}

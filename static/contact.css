@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+    margin-top: 28px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    height: 80vh;
+}
+.each{
+    padding: 7px;
+    margin: 10px 0px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 50%;
+}
+.btn{
+    padding: 4px 13px;
+    font-size: 21px;
+    border: 2px solid black;
+    background-color: tomato;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 15px 0px;
+}
+.btn:hover{
+    background-color: rgb(184, 35, 35);
+}
